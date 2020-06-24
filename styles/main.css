@@ -4,6 +4,7 @@
 :root {
     --letter-spacing: 0.1em;
     --title-font: 'Notable', sans-serif;
+    --text-font: 'Nunito', sans-serif;
   }
 
 * {
@@ -105,11 +106,19 @@ footer ul {
 footer > ul > li > a {
     text-decoration: none;
     color: black;
+    font-family: var(--title-font);
 }
 
 a {
     text-decoration: none;
-    color: black;
+    font-family: var(--text-font);
+    color: #2f2f2f;
+}
+
+.post-title {
+    font-size: 0.9em; 
+    color: #2f2f2f;
+    margin: 1em;
 }
 
 
@@ -119,6 +128,7 @@ a {
     }
     .about-me, .blog-container {
         width: 40%;
+        height: 30vh;
     }
     .blog-container {
         /* background-color: black; */
