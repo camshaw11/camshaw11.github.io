@@ -1,7 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
+:root {
+    --letter-spacing: 0.1em;
+  }
+
 * {
     box-sizing: border-box;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    background-color: coral;
+}
+
+.title {
+    font-family: 'Notable', sans-serif;
+    font-size: 6em;
+    letter-spacing: var(--letter-spacing);
+}
+
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
 }
