@@ -6,6 +6,7 @@
 
 * {
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 html, body {
@@ -22,12 +23,15 @@ body {
     width: 100%;
     min-height: 100vh;
     background-color: coral;
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
     font-family: 'Notable', sans-serif;
     font-size: 6em;
     letter-spacing: var(--letter-spacing);
+    margin: 0;
 }
 
 header {
@@ -35,5 +39,26 @@ header {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    /* height: 26vh; */
+}
+
+main {
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row nowrap;
+    flex: 1;
+}
+
+.about-me {
+    /* width: 20vw; */
+    /* height: 40vh; */
+    margin: 1em;
+}
+
+.blog-container {
+    /* width: 20vw; */
+    /* height: 40vh; */
+    margin: 1em;
 }
