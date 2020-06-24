@@ -39,7 +39,6 @@ header {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    /* height: 26vh; */
 }
 
 main {
@@ -47,18 +46,28 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     flex: 1;
 }
 
 .about-me {
-    /* width: 20vw; */
-    /* height: 40vh; */
+    width: 100%;
+    height: 40vh;
     margin: 1em;
 }
 
 .blog-container {
-    /* width: 20vw; */
-    /* height: 40vh; */
+    width: 100%;
+    height: 40vh;
     margin: 1em;
+}
+
+@media (min-width: 670px) { 
+    main {
+        flex-flow: row nowrap;
+    };
+}
+
+@media (min-width: 1000px) {
+
 }
