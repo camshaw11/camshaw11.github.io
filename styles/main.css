@@ -31,7 +31,7 @@ body {
 }
 
 .title {
-    font-family: var(--title-font);
+    font-family: var(--text-font);
     font-size: 5em;
     letter-spacing: var(--letter-spacing);
     margin: 0;
@@ -45,6 +45,15 @@ header {
 }
 
 main {
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: column nowrap;
+    flex: 1;
+}
+
+section {
     height: auto;
     display: flex;
     justify-content: space-evenly;
@@ -76,6 +85,11 @@ h2 {
 .more-info {
     font-size: 0.7em;
     color: antiquewhite;
+    text-align: center;
+}
+
+#content-big {
+    width: 80%;
 }
 
 .blog-container {
@@ -101,7 +115,7 @@ footer {
 }
 
 footer ul {
-    font-family: var(--title-font);
+    font-family: var(--text-font);
 	width: 100%;	
 	display: flex;
 	flex-direction: row;
@@ -114,7 +128,8 @@ footer ul {
 footer > ul > li > a {
     text-decoration: none;
     color: black;
-    font-family: var(--title-font);
+    font-family: var(--text-font);
+    font-weight: 800;
 }
 
 footer > ul > li {
@@ -133,7 +148,7 @@ a {
     list-style-type: none;
     color: #2f2f2f;
     margin: 1em;
-    background-color: #00000033;
+    background-color: antiquewhite;
     padding: 1em; 
 }
 
@@ -144,6 +159,7 @@ a {
     }
     .more-info {
         font-size: 0.9em;
+        text-align: left;
     }
     .about-me, .blog-container {
         width: 31%;
@@ -165,19 +181,24 @@ a {
         font-size: 0.9em;
         background-color: #00000000;
         margin: 0;
-
-        /* list-style-type: square; */
+        list-style-type: square;
     }
     a {
         text-decoration: underline;
     }
     .title {
         font-size: 6em;
-    };
+    }
+    ul {
+        padding-inline-start: 40px;
+    }
 }
 
 @media (min-width: 1000px) {
     .intro {
         text-align: left;
-    };
+    }
+    .intro-blog {
+        text-align: center;
+    }
 }
