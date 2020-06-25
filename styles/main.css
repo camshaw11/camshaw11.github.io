@@ -113,6 +113,7 @@ h3 {
 
 #content-big p:first-of-type {
     margin-bottom: 7em;
+    border-left: none;
   }
 
 .blog-container {
@@ -177,6 +178,10 @@ a {
     margin: 1em;
     background-color: antiquewhite;
     padding: 1em; 
+}
+
+code {
+    background-color: azure;
 }
 
 

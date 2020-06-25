@@ -36,15 +36,51 @@
         <h3 class="small-header">Margin</h3>
         <p class="blog-content">
           The margin is outside everything else we have mentioned. It sits after the border. It wraps together the content, padding, and border in one box and separates
-          it from another piece of content or another ‘element’ as we call it in HTML. Just like the padding it's also invisible (whitespace), and it can be controlled
+          it from another piece of content or another ‘element’ as we call it in HTML.<br><br> Just like the padding it's also invisible (whitespace), and it can be controlled
           using the margin property in CSS.
         </p>
         <p class="blog-content">
           So let's remember we are talking about a box here, and what does a box have? <br>
           4 sides. <br>
-          Enough of me writing words.. Show me some pictures! <br><br>
+          Enough of me writing words.. Show me some pictures!
         </p>
-        <img src="" alt="">
+        <img src="../img/box-model.png" alt="picture of box model">
+        <p class="blog-content">Image showing the box model</p>
+        <p class="blog-content">
+          This image might be difficult to understand at first, so let’s use an analogy:<br>
+          Imagine you climb inside a really big cardboard box.<br><br> The space between you and cardboard box is the padding! Think of the box as the border, and then the
+          space outside the box is the margin.
+        </p>
+        <p class="blog-content">
+          You can size the padding, border, margin for all 4 sides of your element. To help with this we have very clear CSS properties to target each side of the box.<br><br>
+          <b>Padding-top, padding-bottom, padding-left, padding-right.</b><br><br>
+          And the same for border and margin.. <br><br>
+          <b>Border-top, border-bottom, border-left, border-right</b><br><br>
+          <b>Margin-top, margin-bottom, margin-left, margin-right</b><br><br>
+          Phew! That’s a lot of typing! Fortunately there are shortcuts!
+          Padding: top, right, bottom, left;
+          So in code we can write for example:<br><br>
+          <code>Padding: 3px 5px 3px 5px;</code><br><br>
+          Notice how it goes clockwise, top, right, bottom, left.. And that's the same for border and margin! 
+        </p>
+        <p class="blog-content">
+          An awesome feature of your internet browser is the <a href="https://developers.google.com/web/tools/chrome-devtools" target="_blank">developer tools.</a><br><br> 
+          When you want to work with CSS, right-click an element on the page (in your browser) and select Inspect to jump into the Elements panel. Or press Command+Option+C (Mac)
+          or Control+Shift+C (Windows, Linux, Chrome OS).<br><br>
+
+          Built into the developer tools is a little interactive box model, which looks like this:
+        </p>
+        <img src="../img/chrome-box.png" alt="picture of chromes box model">
+        <p class="blog-content">Screenshot of Google Chrome's Box Model</p>
+        <p class="blog-content">
+          With this feature you can easily see the sizes of the content, padding and margin of a particular element. This is very helpful for when elements are weirdly sized,
+          or maybe they are pushing other elements on the page (margin). Use this tool to help debug your code!
+        </p>
+        <p class="blog-content">
+          Awesome, so what next? you’re probably thinking which one to use and when? The truth is, I could sit here explaining it to you all day.
+          But the only way you will really learn is if you go and have a play with it yourself. Try and break your code and then try and fix it. 
+        </p>
+        <img src="../img/css-fight.gif" alt="Peter Griffon fighting with the blinds">
       </div>
     </section>
     <footer>
