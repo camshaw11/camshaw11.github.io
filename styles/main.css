@@ -110,6 +110,10 @@ h3 {
     background-color: antiquewhite;
     /* align-items: flex-start; */
     /* padding: 6em; */
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #content-big p:first-of-type {
