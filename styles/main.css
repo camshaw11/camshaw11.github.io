@@ -160,6 +160,10 @@ footer > ul > li > a {
     font-weight: 800;
 }
 
+.footer-title:hover {
+    color: antiquewhite;
+}
+
 footer > ul > li {
     letter-spacing: var(--letter-spacing);
 }
