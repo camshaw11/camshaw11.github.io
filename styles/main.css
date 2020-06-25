@@ -78,14 +78,21 @@ h2 {
 }
 
 h3 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-family: var(--text-font);
+    margin: 0;
+    padding-left: 40px;
+    /* align-self: self-start; */
     /* text-align: left; */
 }
 
 .intro {
     margin-bottom: 0.1em;
     text-align: center;
+}
+
+.intro-blog {
+    font-size: 1.3em;
 }
 
 .intro, .more-info {
@@ -100,9 +107,13 @@ h3 {
 
 #content-big {
     width: 80%;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     padding: 6em;
 }
+
+#content-big p:first-of-type {
+    margin-bottom: 7em;
+  }
 
 .blog-container {
     padding: 1em;
@@ -111,6 +122,10 @@ h3 {
 
 .blog-content {
     font-family: var(--text-font);
+    padding-left: 40px;
+    max-width: 42rem;
+    margin-bottom: 4em;
+    border-left: 1px solid black;
 }
 
 ul {
