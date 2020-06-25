@@ -196,6 +196,10 @@ code {
     height: auto;
 }
 
+.gif {
+    margin-bottom: 3em;
+}
+
 
 @media (min-width: 670px) { 
     main {
@@ -275,5 +279,20 @@ code {
     }
     .title-long {
         font-size: 3.5em;
+    }
+    .post-title {
+        font-size: 2em;
+    }
+    .more-info {
+        font-size: 2.2em;
+    }
+    .intro {
+        font-size: 2.2em;
+    }
+    footer > ul > li > a {
+        font-size: 2em;
+    }
+    .blog-img {
+        max-width: 600px;
     }
 }
