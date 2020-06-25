@@ -268,5 +268,12 @@ code {
 @media (min-width: 1700px) {
     .blog-content {
         max-width: 85rem;
+        font-size: x-large;
+    }
+    .intro-blog, .small-header {
+        font-size: xx-large;
+    }
+    .title-long {
+        font-size: 3.5em;
     }
 }
