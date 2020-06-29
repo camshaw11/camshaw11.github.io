@@ -184,6 +184,7 @@ a {
     margin: 1em;
     background-color: antiquewhite;
     padding: 1em; 
+    border-radius: 10px;
 }
 
 code {
