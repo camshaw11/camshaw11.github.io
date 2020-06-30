@@ -86,7 +86,7 @@ h3 {
 }
 
 .intro {
-    margin-bottom: 0.1em;
+    margin-bottom: 1.1em;
     text-align: center;
 }
 
@@ -129,6 +129,7 @@ h3 {
     max-width: 42rem;
     margin-bottom: 4em;
     text-align: center;
+    line-height: 1.5;
 }
 
 ul {
@@ -189,6 +190,7 @@ a {
 
 code {
     background-color: azure;
+    padding: 0.2rem;
 }
 
 .blog-img {
@@ -239,9 +241,6 @@ code {
     .title-long {
         font-size: 1.5em;
         margin: 2em;
-    }
-    ul {
-        /* padding-inline-start: 40px; */
     }
 
     #content-big {

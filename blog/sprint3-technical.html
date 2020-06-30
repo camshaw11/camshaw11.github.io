@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Reflection</title>
+  <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+        <h1 class="title title-long">Technical Blog</h1>
+    </header>
+    <section>
+      <div class="blog-container" id="content-big">
+        <h2 class="intro intro-blog">JavaScript and The DOM</h2>
+        <p class="blog-content">
+            <b>An analogy to describe the differences between HTML and CSS</b><br><br>
+
+            Let's imagine your body is a “web page”. Your skeleton, what holds you together is like the HTML of a web page. 
+            It is the backbone to every website you see, it provides the structure on each page. <br><br>
+
+            The CSS is like how tall you are or your hair colour! It is the stylistic features on a web page. It makes the page look 
+            pretty, or makes it look good on a mobile device!<br><br> Think of CSS like the presentation to a document, just like how you present 
+            yourself by wearing nice clothes/jewelry etc..<br><br><br><br>
+
+            <b>Explain control flow and loops using an example process from everyday life, for example 'waking up' or 'brushing your teeth'. 
+            (But not those ones).</b><br><br>
+
+            The ‘control flow’ is the order in which something is done. For example you have to open your car door before you can get inside 
+            your car and then you have to turn your key before you can drive. 
+            In code, statements are executed just like this, line by line, from the first line to the last line.<br><br>
+
+            A ‘loop’ is a repeating sequence of events. In programming we use loops to repeat an instruction until a condition has been met. 
+            For example: it's 6am in the morning and your alarm starts to go off, that alarm will continue to beep and beep until you press 
+            snooze or stop.<br><br> The alarm is repeating its beeping sound until it gets the instruction to stop.<br> 
+
+            We use loops in code to eliminate the workload in terms of programming and for a faster execution. <br><br><br><br>
+
+
+
+
+            <b>Describe what the DOM is and an example of how you might interact with it.</b><br><br>
+
+            The DOM stands for the Document Object Model, and it is what your browser displays in a web document. To quote Kirupa: <br><br>
+
+            <i>“It is basically a collision of HTML, CSS and JavaScript working together to create what gets shown”</i><br><br>
+
+            The DOM is made up of a whole bunch of things that we call “nodes”. Nodes are essentially elements, text, comments and other 
+            bits and pieces.<br><br> 
+
+            There are many many ways to interact with the DOM so I will just talk about a few:
+            In JavaScript we can ‘capture’ clicks and keyboard button presses on our webpage.<br> What I mean by this is that any time someone 
+            clicks the mouse or presses the space key or any key we can fire an event in our code and make these interactions do something!
+            We call these ‘events’ because they trigger an action to happen. The most common ones are
+            ‘click’, ‘mouseenter’ and ‘keyup’.<br><br>
+
+            So anytime someone clicks a button on the webpage we can fire an event and do something like submit a form, or maybe enlarge 
+            an image!
+
+            These are interactions explicitly happening to the DOM.<br><br><br><br>
+
+
+
+            <b>Explain the difference between accessing data from arrays and objects.</b><br><br>
+
+            In JavaScript we have arrays and objects.<br>
+            Arrays are essentially a stored sequence of values. They are written between square brackets and separated by commas. Eg:<br><br>
+
+            <code>let myNewArray = [10, 34, 56, 78];</code><br><br>
+
+            To access a value in an array you can refer to what's called the ‘index number’. The 
+            Index number refers to the position of the value.
+            Array indexes start with 0.
+            [0] is the first element. [1] is the second element.
+            So [0] (position 1) would be equal to…… 10! and [1] (position 2) would be equal to…. 	34!<br><br> 
+
+
+
+
+            Objects are collections of properties. Objects in JavaScript are just like objects in real life. For example your desk 
+            has the properties of a colour, a size, a material, a price etc. JavaScript objects have properties which define what 
+            they are.  Eg:<br><br>
+
+            <code>Let myMonitor = {make: “AOC”, price: “$180”, size: “24”};</code><br><br>
+            The values in objects are written as key:value pairs (name and value separated by a colon). So, key: ‘make’ and value: ‘AOC’.<br>
+
+            To access a property in an object we can use two methods, one:<br><br>
+
+            objectName.propertyName - so using our example from above, that would look like this: <br><br>
+
+            myMonitor.make - which is equal to ‘AOC’!<br><br>
+
+            The other way is to write the key name in square brackets, like this:<br><br>
+
+            objectName["propertyName"] - so again using our example it would look like:<br><br>
+
+            myMonitor[“price”] - which is equal to ‘$180’!<br><br>
+
+            As you can see Arrays and Objects may look quite similar at first but there are different ways to ‘pull’ the data out from them!<br><br><br><br>
+
+
+
+
+            <b>Explain what functions are and why they are useful.</b><br><br>
+
+            A function is a ‘block’ of code that is made to perform a specific task.<br><br> They are very useful because they provide structure to 
+            code and they help to reduce repetition. Just like how an essay is broken up into subtopics to talk about a specific thing, code 
+            is broken up into functions to do specific actions.
+
+
+        </p>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li class="footer-title"><a href="mailto:cameronshaw95@gmail.com" target="_blank">Email</a></li>
+        <li class="footer-title"><a href="https://github.com/camshaw11" target="blank">Github</a></li>
+        <li class="footer-title back"><a href="../index.html">Back</a></li>
+      </ul>
+    </footer>
+</div>
+</body>
+</html>
