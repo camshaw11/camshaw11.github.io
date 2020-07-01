@@ -114,7 +114,7 @@ h3 {
 }
 
 #content-big p:first-of-type {
-    margin-bottom: 7em;
+    margin-bottom: 6em;
     border-left: none;
   }
 
@@ -127,9 +127,9 @@ h3 {
     font-family: var(--text-font);
     padding-left: 0;
     max-width: 42rem;
-    margin-bottom: 4em;
+    margin-bottom: 3em;
     text-align: center;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 
 ul {
@@ -249,12 +249,15 @@ code {
     
     .blog-content {
         padding: 20px;
-        border-left: 1px solid black;
+        /* border-left: 1px solid black; */
         text-align: left;
+        border-bottom: 1px solid #ff7f50;
     }
 
     h3 {
         text-align: left;
+        padding-bottom: 1.1em;
+        border-bottom: 1px solid #ff7f50;
         /* padding-left: 40px; */
     }
 
