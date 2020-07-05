@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neuroplasticity</title>
+  <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+        <h1 class="title title-long">JavaScript Problem Solving</h1>
+    </header>
+    <section>
+      <div class="blog-container" id="content-big">
+        <h2 class="intro intro-blog">Problem Solving</h2>
+        <p class="blog-content">
+            <b>Tell your non-tech friend a story about a time you got blocked on a simple problem</b><br><br>
+            
+            The problem was to remove all of the bees from a string of words. For example if the string was:<br><br>
+            <i>"Help! buzz I'm buzz buzz surrounded buzz by buzz buzz bees!!"</i><br><br>
+            
+            We needed to remove all of the variations of “buzz” from the sentence. The output should look like this:<br><br>
+            
+            <i>"Help! I'm surrounded by bees!!”</i><br><br>
+            
+            I thought that was easy enough, I will just split the string into words and filter out the ‘buzz’. The thing that caught me 
+            was that buzz could be spelt like: “buzz”, “Buzz”, “BUzZ” “bizz” and so on…<br><br>
+            I ended up writing a very big line of code to account for all the variations of buzz.. It looked something like this:<br><br>
+            
+            <code>Str !== “Buzz” && str !== “buzz” && str !== “BuzZ” && str !== “BUZZ” …. Etc etc..</code><br><br>
+            
+            This is saying “word does not equal Buzz AND word does not equal buzz AND ….<br><br>
+            
+            That did the job but it could definitely be refactored into a more simple and elegant solution.<br><br>
+            
+            
+            
+            <b>Solved a problem in an elegant way.</b><br><br>
+            
+            To solve the problem I had to think about how I could make all the variations of casing into one. After quite a bit of 
+            googling I hit a match. Luckily in JavaScript there is a method that can convert a word into lowercase letters.<br><br> 
+            <code>toLowerCase();</code><br><br> 
+            
+            And well now my code looked like this..<br><br>
+            
+            <code>word.toLowerCase() !== "buzz"</code><br><br>
+            
+            Convert all the words to lowercase and filter out buzz! Much nicer solution.<br><br> Even though my first solution did pass the 
+            tests, I felt much more satisfied with the shorter and more concise second solution. I learned that there is usually always 
+            another way to solve a problem, and refactoring code is a skill in itself. <br><br><br><br>
+
+            
+            <b>Reflect on how confident you feel using the problem solving techniques and process:</b><br><br>
+            
+            <b>Pseudocode</b><br><br>
+            
+            I’m not very confident using pseudocode for problem solving. I may write some pseudocode but then never read it while I am 
+            trying to solve a problem. However I do like having pseudocode for when I come back to look at my again after a break/time 
+            off. It saves me from reading through all the code to remember what it does.<br><br>
+            
+            <b>Trying something</b><br><br>
+            
+            I often try very random approaches just to see what the outcome is. Usually it fails, but if it seems interesting or useful 
+            I will probably do more research on that approach. Then I might go down a rabbit hole and end up having to go back to step 1.<br><br>
+            
+            <b>Rubber ducky method</b><br><br>
+            I have yet to use the rubber ducky method. I keep telling myself to try it, but I always forget. I’m really interested in 
+            trying it the next time I come across a difficult problem.<br><br>
+            
+            <b>Reading error messages</b><br><br>
+            
+            I skim read the error messages, the big red text is not very user friendly to look at so I don’t spend much time reading them.<br><br> 
+            
+            <b>Console.logging</b><br><br>
+            
+            I’m quite confident in console logging various parts of my code. I usually put them in everywhere I can, especially when it 
+            comes to scope and accessing variables. Sometimes the execution context can get very confusing so the console helps to show 
+            me what is happening. <br><br>
+            
+            <b>Googling</b><br><br>
+            
+            I’ve been trying to improve my googling skills when it comes to coding related problems. Sometimes there can be so many 
+            solutions to a problem and it can get very daunting seeing the google results, however it is a great tool to help with everything.<br><br>
+            
+            <b>Asking your peers for help</b><br><br>
+            
+            Getting peer to peer help is one of the most effective methods in problem solving for me. Communication is an amazing ability 
+            we have as humans, and it should be used as much as possible.<br><br> I haven't had to ask anyone for help yet. However I have looked 
+            at my peers' code on their blog sites and it always fascinates me on everyone's creative approaches in coding and design. 
+            I expect to be asking for a lot of help in the coming weeks.<br><br>
+            
+            <b>Asking coaches for help</b><br><br>
+            
+            I’m confident in asking for help from my coaches when the time comes. They have years of insight into development and have 
+            probably come across the same problems as me before.<br><br>
+            
+            <b>Improving your process with reflection</b><br><br>
+            
+            I have really been enjoying the reflection process, I want to continue it throughout my life. I find the act of making me 
+            think about what I did is really helping me to solidify my learning.
+        </p>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li class="footer-title"><a href="mailto:cameronshaw95@gmail.com" target="_blank">Email</a></li>
+        <li class="footer-title"><a href="https://github.com/camshaw11" target="blank">Github</a></li>
+        <li class="footer-title back"><a href="../index.html">Back</a></li>
+      </ul>
+    </footer>
+</div>
+</body>
+</html>
