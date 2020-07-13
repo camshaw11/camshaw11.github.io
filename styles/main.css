@@ -231,7 +231,6 @@ code {
         font-size: 0.9em;
         background-color: #00000000;
         margin: 0;
-        /* list-style-type: square; */
     }
     a {
         text-decoration: underline;
@@ -250,7 +249,6 @@ code {
     
     .blog-content {
         padding: 20px;
-        /* border-left: 1px solid black; */
         text-align: left;
         border-bottom: 1px solid #ff7f50;
     }
@@ -259,7 +257,6 @@ code {
         text-align: left;
         padding-bottom: 1.1em;
         border-bottom: 1px solid #ff7f50;
-        /* padding-left: 40px; */
     }
 
 }
