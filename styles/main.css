@@ -24,7 +24,8 @@ body {
 .wrapper {
     width: 100%;
     min-height: 100vh;
-    background-color: coral;
+    /* background-color: coral; */
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
     display: flex;
     flex-direction: column;
 }
@@ -173,7 +174,7 @@ footer > ul > li {
 
 a {
     text-decoration: none;
-    font-family: var(--text-font);
+    font-family: 'Nunito', sans-serif;
     color: #000000;
 }
 
